@@ -1,0 +1,55 @@
+/* Body style */
+body {
+  background-color: #ffeedd;  /* Soft background */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 40px;
+  transition: background-color 0.5s ease;
+}
+
+/* Container box */
+.container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+h1 {
+  color: #ff6600;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+p {
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Image */
+.app-image {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
